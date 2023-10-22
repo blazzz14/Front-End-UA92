@@ -1,0 +1,109 @@
+header {
+    text-align: center;
+}
+
+body {
+    background-image: url('background.png');
+}
+
+nav {    
+    background-color: #e5e5e4; /*Set background colour of nav bar to */
+    font-size: large;   
+}
+
+a:link {
+    color: black; /*When link is not clicked, colour is black.*/
+}
+/* Style for the delivery text in header*/
+.delivery-text {
+    font-size: 20px; /* Adjust the font size as needed */
+    margin: 0; /* Remove any default margin */
+    display: inline; /* Display text and image in the same line */
+}
+
+/* Style for the delivery van image */
+.delivery-image {
+    width: 40px; 
+    height: 40px; 
+    margin-left: 10px; /* Add some spacing between the text and image */
+    vertical-align: middle; /* Align the image vertically in the middle of the line */
+}
+
+.container {
+    max-width: 1200px; /*Accommodates the product categories in a row*/
+    margin: 0 auto;
+}
+
+.main-search-button {
+    background-color: #218838;
+    color: #fff;
+    border: 3px solid #0febd8;
+    padding: 8px 16px;
+    margin-left: 8px;
+    border-radius: 3px;
+}
+
+.main-search-input-item input {
+    width: 40%;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Dropdown Styles */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.keyrings-dropdown,
+.figurines-dropdown,
+.wallart-dropdown,
+.spares-dropdown {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+    background-color: rgb(237, 235, 235); /* Light gray background for dropdowns */
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.keyrings-dropdown .card,
+.figurines-dropdown .card,
+.wallart-dropdown .card,
+.spares-dropdown .card {
+    width: 350%;
+    max-width: 400%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/*Change carousel controls to be more visible*/
+.custom-prev,
+.custom-next {
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+.custom-prev span,
+.custom-next span {
+    font-size: 40px; /*Set arrow controls to 40px*/
+}
+
+/*Target forms to appear side by side*/
+.form-container {
+    display: flex; /*Makes the forms display horizontally */
+    justify-content: space-between; /* Adjust this as needed */
+    
+}
+
+
+
+
+
