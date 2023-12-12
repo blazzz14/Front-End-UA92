@@ -14,4 +14,4 @@ The design team agreed a reasonable time frame with the client of 6 weeks to des
 of the Web Application. A presentation of the project was scheduled for 26/10/2023 at the client’s 
 headquarters, UA92, Old Trafford Manchester.
 
-Designed and developed by Tapiwa Matukutire
+Designed and developed by L39220273, UA92
